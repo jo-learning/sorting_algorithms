@@ -27,7 +27,7 @@ void bubble_sort(int *array, size_t size)
 				array[i] = array[i + 1];
 				array[i + 1] = tmp;
 				print_array(array, size);
-				bubbly = false;
+				bubble = false;
 			}
 		}
 		len--;
