@@ -3,7 +3,7 @@
 /**
  * swap - Swap two nodes in a listint_t doubly-linked list.
  * @head: A pointer to the head of the doubly-linked list.
- * @p: A pointer to the first node to swap.
+ * @p1: A pointer to the first node to swap.
  * @p2: The second node to swap.
  */
 void swap(listint_t **head, listint_t **p1, listint_t *p2)
