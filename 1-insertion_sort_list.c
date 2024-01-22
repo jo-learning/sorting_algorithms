@@ -6,7 +6,7 @@
  * @p: A pointer to the first node to swap.
  * @p2: The second node to swap.
  */
-void swap(listint_t **head, listint_t **p2, listint_t *p1)
+void swap(listint_t **head, listint_t **p1, listint_t *p2)
 {
 	(*p1)->next = p2->next;
 	if (p2->next != NULL)
